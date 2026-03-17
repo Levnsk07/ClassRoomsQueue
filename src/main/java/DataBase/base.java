@@ -1,12 +1,15 @@
 package DataBase;
 
+import java.util.ArrayList;
+
 public interface base {
 
 
 
 //    Get elements
     User get(int id);
-    User[] getAll();
+//    User[] getAll();
+    ArrayList<User> getAll();
 
 //    Add
     void add(User user, int id);
